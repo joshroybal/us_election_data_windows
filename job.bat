@@ -16,6 +16,6 @@ mkdir direct & call direct.bat
 rmdir direct /s /q
 call html.bat
 "C:\Program Files\7-Zip\7z.exe" a html.zip html
-rmdir html /s /q
+del html\*.html
 "C:\Program Files\7-Zip\7z.exe" a json.zip json
 rmdir json /s /q
