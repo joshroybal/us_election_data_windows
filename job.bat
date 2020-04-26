@@ -1,9 +1,5 @@
 @echo on
-mkdir json
-mkdir csv
-mkdir tab
-mkdir flat
-mkdir direct
+unzip txt.zip
 call json.bat
 call csv.bat
 call tab.bat
