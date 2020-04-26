@@ -36,7 +36,7 @@ header_list = election_data.get_header_list(party_keys)
 record_list = election_data.get_record_list(records, party_keys)
 
 # output block
-filename = 'tab/' + os.path.splitext(os.path.basename(sys.argv[1]))[0] + '.txt'
+filename = 'tab\\' + os.path.splitext(os.path.basename(sys.argv[1]))[0] + '.txt'
 outfile = open(filename, 'wb')
 
 # output header row

@@ -36,7 +36,7 @@ header_list = election_data.get_header_list(party_keys)
 record_list = election_data.get_record_list(records, party_keys)
 
 # output block
-filename = 'csv/' + os.path.splitext(os.path.basename(sys.argv[1]))[0] + '.csv'
+filename = 'csv\\' + os.path.splitext(os.path.basename(sys.argv[1]))[0] + '.csv'
 outfile = open(filename, 'wb')
 
 # output header row

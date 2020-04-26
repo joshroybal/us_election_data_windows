@@ -60,7 +60,7 @@ for x in record_list[0]:
     i += 1
 
 # output block
-filename = 'direct/' + os.path.splitext(os.path.basename(sys.argv[1]))[0] + '.dat'
+filename = 'direct\\' + os.path.splitext(os.path.basename(sys.argv[1]))[0] + '.dat'
 outfile = open(filename, 'wb')
 
 # output record rows

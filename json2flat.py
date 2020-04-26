@@ -64,7 +64,7 @@ for x in record_list[0]:
     i += 1
 
 # output block
-filename = 'flat/' + os.path.splitext(os.path.basename(sys.argv[1]))[0] + '.txt'
+filename = 'flat\\' + os.path.splitext(os.path.basename(sys.argv[1]))[0] + '.txt'
 outfile = open(filename, 'wb')
 
 # output header row

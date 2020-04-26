@@ -36,7 +36,7 @@ header_list = election_data.get_header_list(party_keys)
 record_list = election_data.get_record_list(records, party_keys)
 
 # output block
-filename = 'html/' + os.path.splitext(os.path.basename(sys.argv[1]))[0] + '.html'
+filename = 'html\\' + os.path.splitext(os.path.basename(sys.argv[1]))[0] + '.html'
 outfile = open(filename, 'wb')
 # output top of page html
 outfile.write('<!DOCTYPE html>\r\n')
